@@ -1,0 +1,7 @@
+FROM ubuntu
+
+MAINTAINER yolo
+
+RUN apt-get update
+
+CMD ["echo", "Welcome to docker1"]
